@@ -24,7 +24,7 @@ export default function Home() {
                         <div className="details_burger">
                             <div className="star">
                                 <img src="../src/assets/icons/star.svg" alt="star" />
-                                <p className="star-p">4.3</p>
+                                <p className="star-p">4.9</p>
                             </div>
                             <button className="like-btn"><img src="../src/assets/icons/like.svg" alt="heard" /></button>
                         </div>
@@ -70,8 +70,8 @@ export default function Home() {
             <footer>
                 <nav className="nav">
                     <Link className="link" to="/"><img src="../src/assets/icons/home.svg" alt="home" /></Link>
-                    <Link className="link" to="/about"><img src="../src/assets/icons/user.svg" alt="user" /></Link>
-                    <div className="plus-div"><Link className="link-plus" to="/profile"><img src="../src/assets/icons/plus.svg" alt="plus" /></Link></div> <br />
+                    <Link className="link" to="/profile"><img src="../src/assets/icons/user.svg" alt="user" /></Link>
+                    <div className="plus-div"><Link className="link-plus" to="/about"><img src="../src/assets/icons/plus.svg" alt="plus" /></Link></div> <br />
                     <Link className="link" to="/"><img src="../src/assets/icons/comment.svg" alt="comment" /></Link>
                     <Link className="link" to="/"><img src="../src/assets/icons/heart.svg" alt="heart" /></Link>
                 </nav>
