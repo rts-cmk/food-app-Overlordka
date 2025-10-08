@@ -9,7 +9,7 @@ export default function Home() {
                     <img src="../src/assets/icons/Foodgo.svg" alt="Foodgo" />
                     <p className="header-p">Order your favourite food!</p>
                 </section>
-                <Link className="link" to="/about"><img src="../src/assets/imgs/face-low.png" alt="" /></Link>
+                <Link className="link" to="/profile"><img src="../src/assets/imgs/face-low.png" alt="" /></Link>
             </header>
             <main>
                 <section className="search-bar">
